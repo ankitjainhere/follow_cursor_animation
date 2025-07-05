@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(210, 163, 255);
+  cursor: none;
+}
+
+#cursor {
+  opacity: 0;
+}
+
+#circle {
+  width: 30px;
+  height: 30px;
+  border: 1px black solid;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+#dot {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border: 2px black solid;
+  border-radius: 50%;
+}
